@@ -1,0 +1,136 @@
+ /* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main container */
+.container {
+  height: 100vh;
+  width: 100vw;   background: whitesmoke;
+  
+
+}
+
+/* Navigation bar container */
+.navcontainer {
+  width: 100%;
+  background-color: rgb(53, 51, 192);
+   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center; /* centers the nav list */
+  align-items: center;
+  padding: 10px 0;
+}
+
+/* Navigation list */
+#navlist {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%; /* control spacing inside navbar */
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* Logo */
+#navlogo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Links */
+#navlist a {
+  text-decoration: none;
+  color: rgb(196, 42, 4);
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+#navlist a:hover {
+  color: yellow;
+}
+ 
+.footerbox{
+   background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  min-height: 50px;
+font-size: 1.9rem;
+  
+}
+.contentbox{
+  width: 79%;
+  margin: auto;
+  color: rgb(11, 14, 14);
+  border: 1px solid black;
+  width: 85%;
+
+
+}
+.item{
+  display: flex;
+  justify-content:  space-around;
+  align-items: center;
+  padding: 20px;
+}
+.right img{
+  height: 300px;
+  width: 300px;
+  border-radius: 23px;
+   border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+}
+
+.right img:hover{
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+.contentbox{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px;
+  border: 2px solid red;
+   box-shadow: 4px 4px 10px rgba(156, 34, 3, 0.3);
+}
+.leftbox{
+  display: flex;
+  flex-direction: column;
+}
+.leftbox h2{
+  font-size: 1.9rem;
+}
+.Ingredients{
+  font-size: 1.5rem;
+}
+.Rescipe{
+  font-size: 1.4rem;
+}
+section{
+  border: 2px solid wheat;
+  box-shadow: blue;
+
+}
+section:hover{
+ 
+  background: rgba(158, 80, 6, 0.726);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5)
+}
+.Ingredients li{
+  list-style: none;
+}
+.Rescipe{list-style: none;
+
+}
+
+section:active{
+ 
+  background: rgba(238, 234, 18, 0.555);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5)
+}
